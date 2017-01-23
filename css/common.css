@@ -1,0 +1,161 @@
+body{
+    margin-top: 70px;
+    background-color: #f4f4f4;
+}
+.bus-Bg{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+.bus-PD0{
+    padding: 0px;
+}
+.bus-PDT5{
+    padding-top: 5px;
+}
+.bus-MG0{
+    margin: 0;
+}
+.bus-logo{
+    width: 120px;
+}
+
+.bus-icons{
+    width: 25px;
+}
+
+
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span {
+    width: 25px;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;   
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;   
+}
+
+
+
+
+
+/*--navbar--*/
+.bus-topnavbar{
+    padding: 10px;
+    background-color: #000;
+}
+.bus-bottomnavbar{
+    padding: 10px;
+    background-color: #000;
+}
+.bus-color878787{
+    color: #878787;
+}
+
+.bus-select{
+    border-radius: 0;
+    height: 50px;
+    font-size: 20px;
+}
+/*--//navbar--*/
+
+.bus-BDR{
+    border-radius: 0px;
+}
+
+.bus-btn{
+    border-radius: 0;
+    background: transparent;
+    border: 2px solid #26ade5;
+    color: #fff;
+    padding: 10px 40px;
+}
+.bus-btn:hover{
+    border-radius: 0;
+    background: #26ade5;
+    border: 2px solid transparent;
+    color: #fff;
+    padding: 10px 40px;
+}
+.bus-subbtn{
+    border-radius: 0;
+    background: transparent;
+    border: 2px solid #26ade5;
+    color: #26ade5;
+    padding: 10px 40px;
+}
+.bus-subbtn:hover{
+    border-radius: 0;
+    background: #26ade5;
+    border: 2px solid transparent;
+    color: #fff;
+    padding: 10px 40px;
+}
+.bus-map{
+    width:100%;
+    height:550px;
+}
+@media (max-width: 768px){
+    .bus-mainLogo{
+        position: relative;
+        top: 35%;
+        left: 0%;
+    }
+}
+@media (min-width: 768px) {
+    .bus-topnavbar{
+        padding: 20px;
+        background-color: #000;
+    }
+    .bus-bottomnavbar{
+        padding: 20px;
+        background-color: #000;
+    }
+    .bus-mainLogo{
+        position: relative;
+        top: 35%;
+        left: 30%;
+    }
+}
+@media (min-width: 992px) {
+    .bus-topnavbar{
+        padding: 10px;
+        background-color: #000;
+    }
+    .bus-bottomnavbar{
+        padding: 10px;
+        background-color: #000;
+    }
+    .bus-mainLogo{
+        position: relative;
+        top: 35%;
+        left: 35%;
+    }
+}
+@media (min-width: 1200px) {
+    .bus-topnavbar{
+        padding: 10px;
+        background-color: #000;
+    }
+    .bus-bottomnavbar{
+        padding: 10px;
+        background-color: #000;
+    }
+    .bus-mainLogo{
+        position: relative;
+        top: 35%;
+        left: 35%;
+    }
+}
