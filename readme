@@ -1,0 +1,11 @@
+Title : TrackB
+
+Hardware requirements: 
+Arduino Board, GSM module, GPS Tracker and Smart phone
+
+Software requirements:
+Arduino IDE, Wamp/Xampp server, Text editor and Browser.
+
+Time plays an important role in today’s world. Any information is useful if it is available on the right time.
+In general we will be waiting in the bus stop we don't know where and when the bus would arrive? Sometimes we wait for hours together. It's fine if we don't have any work but sometimes we might have some important work for example an Interview. We will miss the interview due to lack of bus information. So we need to find a solution to it. That is just think of an app/website which track the bus. By tracking the bus one can easily know its position by which he/she can decide whether to wait or find alternative way. This will be very helpful.
+Arduino kit(arduino board+GSM board+GPS board) will be attached to the bus, this kit will act as tracker. An app will be developed which will be linked to the arduino. We also want to include the speed limit crossed alarm (only for institutes). As few drivers drives rash.
